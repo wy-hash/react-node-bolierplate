@@ -1,0 +1,3 @@
+mongodb 연결
+
+mongodb+srv://root:<password>@boilerplate.otcyafq.mongodb.net/?retryWrites=true&w=majority
