@@ -1,3 +1,16 @@
-mongodb 연결
+# mongodb 연결
 
-mongodb+srv://root:<password>@boilerplate.otcyafq.mongodb.net/?retryWrites=true&w=majority
+    mongodb+srv://root:<password>@boilerplate.otcyafq.mongodb.net/?retryWrites=true&w=majority
+
+
+# 바디파서
+    const bodyParser = require("body-parser")
+
+    // application/x-www-form-urlencoded
+    app.use(bodyParser.urlencoded({ extended: true })); // 클라이언트에서 오는 정보를 서버에서 분석하여 
+
+    //application/json
+    app.use(bodyParser.json());
+
+# Node Mon
+    node 서버가 변경되면 자동으로 재실행해주는 것
