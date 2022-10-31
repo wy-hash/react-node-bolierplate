@@ -14,3 +14,9 @@
 
 # Node Mon
     node 서버가 변경되면 자동으로 재실행해주는 것
+
+
+# dev.js 
+module.exports = {
+    mongoURI: 'mongodb+srv://root:root@boilerplate.otcyafq.mongodb.net/?retryWrites=true&w=majority'
+}
