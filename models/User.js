@@ -79,8 +79,6 @@ userSchema.methods.generateToken = function(cb) {
 userSchema.statics.findByToken = function(token, cb) {
     var user = this;
 
-    user._id + '' = token
-
     // 토큰을 decode 한다
     jwt.verify(token, 'secretToken', function(err, decoded) {
 
